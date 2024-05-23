@@ -132,7 +132,7 @@ td {
 .begining{
     text-align: center;
     background-color: rgb(224, 224, 224);
-    padding: 110px;
+    padding: 5%;
     border: #000000 dashed 3px;
     font-size: 27px;
     border-left: 0;
@@ -312,8 +312,5 @@ img{
         box-shadow: 0 0 0 white;
         width: auto;
         height: auto;
-    }
-    .begining h1{
-        font-size: 26px;
     }
 }
