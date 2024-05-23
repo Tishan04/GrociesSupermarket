@@ -308,7 +308,9 @@ img{
         display: block;
     }
     td img{
-        padding-left: 25%;
+        margin:5%;
         box-shadow: 0 0 0 white;
+        width: auto;
+        height: auto;
     }
 }
