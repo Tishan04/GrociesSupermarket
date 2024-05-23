@@ -304,4 +304,8 @@ i{
     .footer-container{
         display:block;
     }
+        .produc img{
+        width: 250px;
+        left: 0%;
+    }
 }
