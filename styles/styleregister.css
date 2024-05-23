@@ -283,8 +283,8 @@ img{
 
 /* Code for the mobile reponsive (600px) */
 @media screen and (max-width:600px){
-    .box{
-        margin: 5%;
+        .box{
+        margin: auto;
     }
 
     td,tr{
@@ -292,5 +292,8 @@ img{
     }
     .footer-container{
         display:block;
+    }
+    .marg{
+        width: 100%;
     }
 }
