@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+
+    <link rel="stylesheet" href="styles/stylesorder.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon package/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+
+    <header>
+        <nav class="guide">
+            <ul>
+                <li><img src="images/Logo.png" alt="" class="igg"></li><br>
+                <li><a href="Index.html" target="_blank">Home</a> </li>
+                <li><a href="about.html" target="_blank">About Us</a> </li>
+                <li><a href="register.html" target="_blank">Register</a> </li>
+                <li class="dropdowns">
+                    <div class="dropdown">
+                        Shop Now
+                        <div class="dropdown-content">
+                          <a href="vegetables.html" target="_blank">Vegetables</a>
+                          <a href="dairy.html" target="_blank">Dairy Products</a>
+                          <a href="cosmetics.html" target="_blank">Cosmetics</a>
+                        </div>
+                      </div> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+        <form action="" method="post">
+
+            <div class="form-group">
+                <label for="branch">Branch:</label>
+                <select name="branch" required>
+                    <option value="">Branch Name</option>
+                    <option value="havelock">Havelock</option>
+                    <option value="galleface">Galle Face</option>
+                    <option value="colombo">Colombo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Loyalty Scheme:</label>
+                <select id="loyalty" name="loyalty" required>
+                    <option value="">Loyalty Scheme</option>
+                    <option value="premium">Premium</option>
+                    <option value="gold">Gold</option>
+                    <option value="senior-citizen">Senior Citizen</option>
+                    <option value="member">Member</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" required maxlength="10">
+            </div>
+
+            <div class="form-group">
+                <label for="groceries">Select Grocery Type:</label>
+                <select id="groceries" name="groceries">
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Diary">Diary</option>
+                    <option value="Cosmetics and Beauty Care">Cosmetics and Beauty Care</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="groceries-item">Enter Grocery Item:</label>
+                <input type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="household-quantity">Quantity:</label>
+                <input type="number" id="household-quantity" name="household-quantity" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="buttons">Add to Cart</button>
+            </div>
+
+        </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-container">
+            <div class="footer-section contact-info">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="havelock@grocies.com">havelock@grocies.com</a></p>
+                <p>Phone: <a href="tel:0112455455">0112 455 455</a></p>
+            </div>
+            <div class="footer-section quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="dairy.html">Dairy</a></li>
+                    <li><a href="cosmetics.html">Cosmetics</a></li>
+                    <li><a href="vegetables.html">Vegetables</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-media">
+                <h4>Follow Us</h4>
+                <h5><a href="#"><i class="fa fa-facebook-f" class="leffff"></i></a>Facebook</h5>
+                <h5><a href="#"><i class="fa fa-twitter" class="leffff"></i></a>Twitter</h5>
+                <h5><a href="#"><i class="fa fa-instagram" class="leffff"></i></a>Instagram</h5>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Supermarket. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
