@@ -283,10 +283,9 @@ img{
 
 /* Code for the mobile reponsive (600px) */
 @media screen and (max-width:600px){
-        .box{
+    .box{
         margin: auto;
     }
-
     td,tr{
         display: inline-block;
     }
