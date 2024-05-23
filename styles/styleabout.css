@@ -313,6 +313,9 @@ i{
     table{
         overflow-x: auto;
     }
+    .content h1 {
+        font-size:45px;
+    }
     td,th {
         font-size: 14px;
     }
